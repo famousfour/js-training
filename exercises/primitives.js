@@ -9,10 +9,10 @@
 
 // Your code :
 
-const myString = "What was the sky like when you were young?"
-const myNumber = 940
-const myBoolean = false
-const myUndefined = 3 + j
+const str = '1337'
+const num = 42
+const bool = false
+const undef = undefined
 
 
 //* Begin of tests
