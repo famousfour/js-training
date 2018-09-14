@@ -1,4 +1,7 @@
-script: ./tester
+script: ./tester basics
 language: node_js
 node_js:
   - "node"
+env:
+- MY_VAR=EverythignIsAwesome
+- NODE_ENV=TEST
