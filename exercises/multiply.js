@@ -11,15 +11,21 @@
 // Your code :
 
 function multiply (x, y) {
-var product = 0
-var i = 0
-while (i <= y); {
-i++
-product = product + (x += x)
-}
-  return product
-}
-
+  var product = 0
+  var i = 0
+  if (y < 0) {
+    y = -y
+    x = -x
+  }
+  else if (x === 0 || y === 0) {
+    return 0
+  }
+  while (i < y) {
+  product = product + x
+  i++
+  }
+    return product
+  }
 
 
 //* Begin of tests
