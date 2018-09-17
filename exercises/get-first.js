@@ -9,6 +9,14 @@
 
 // Your code :
 
+function getFirst (x) {
+  const primo = x[0]
+  return primo
+}
+
+
+
+
 //* Begin of tests
 const assert = require('assert')
 
