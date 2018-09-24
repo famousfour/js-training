@@ -8,7 +8,19 @@
  */
 
 // Your code :
-const obj = {str:"1337", num:42, bool:false, under:"undefined"};
+const obj = {
+  str: "1337",
+  num: 42,
+  bool: false,
+  under: undefined
+};
+
+function get(key) {
+  return obj[key]
+}
+
+
+
 //* Begin of tests
 const assert = require('assert')
 

@@ -8,7 +8,7 @@
  */
 
 // Your code :
-const escapeStr = '\"string\"'
+const escapeStr = "It was a \'dark\' night, " + 'the owls \"were\" flying, ' + "Cats were `meowing`, " + 'wherewolves were growling/' + "\\"
 //* Begin of tests
 const assert = require('assert')
 

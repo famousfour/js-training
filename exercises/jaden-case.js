@@ -10,10 +10,12 @@
  *
  */
 
-
-
+function jadenCase(string) {
+  return string.split(' ').map(word =>word[0].toUpperCase()+word.slice(1).toLowerCase()).join(" ")
+}
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(jadenCase('You are waiting for me'), "You Are Waiting For Me")
+
 // End of tests */
